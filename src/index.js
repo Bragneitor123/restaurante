@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const app - require('./App');
+
+app.listen(app.get8('port'), () =>{
+    console.log("Servidor escuchando en el puerto", app.get("port"));
+});
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
